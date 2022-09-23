@@ -8,6 +8,10 @@ function PhotoTest() {
         padding:'5rem'
     }
 
+    const photostyle={
+      cursor:'pointer'
+    }
+
     const [Image,setImage]=useState();
     
     const launch_lightbox=(e)=>{
@@ -17,9 +21,9 @@ function PhotoTest() {
 
   return (
     <div className='x_even' style={style}>
-        <img src="https://images.pexels.com/photos/13727430/pexels-photo-13727430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" onClick={launch_lightbox}/>
-        <img src="https://images.pexels.com/photos/12346579/pexels-photo-12346579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" onClick={launch_lightbox}/>
-        <img src="https://images.pexels.com/photos/13570394/pexels-photo-13570394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" onClick={launch_lightbox}/>
+        <img style={photostyle} src="https://images.pexels.com/photos/13727430/pexels-photo-13727430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" onClick={launch_lightbox}/>
+        <img style={photostyle} src="https://images.pexels.com/photos/12346579/pexels-photo-12346579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" onClick={launch_lightbox}/>
+        <img style={photostyle} src="https://images.pexels.com/photos/13570394/pexels-photo-13570394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" onClick={launch_lightbox}/>
 
         <LightBox path={Image}/>
     </div>

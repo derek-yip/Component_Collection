@@ -1,0 +1,14 @@
+.content_wrapper{
+    font-size: 2rem;
+    padding: 10rem;
+    height: 100vh;
+    width: 100vw;
+    p::first-letter{
+        color: rgb(173, 192, 230);
+        padding: 0 .3rem;
+        margin: 0 .3rem 0 0;
+        float: left;
+        line-height: .8;
+        font-size: 8rem;
+    }
+}
