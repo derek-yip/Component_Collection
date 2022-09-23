@@ -18,13 +18,12 @@
         position: relative;
         margin: 0 auto;
         min-height: 100px;
-        width: 400px;
+        width: 350px;
         overflow: hidden;
         
         span{
             display: block;
             position:absolute;
-            box-sizing: border-box;
             top:100%;
             left:0;
             padding: 10px 0;
