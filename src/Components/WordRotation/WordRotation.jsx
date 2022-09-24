@@ -1,9 +1,10 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import './WordRotation.scss'
 function WordRotation() {
+    
     setInterval(()=>{
         const current = document.querySelector('span[text="show"]'),
-        next=current.nextElementSibling || document.querySelector('span:first-child'),
+        next = current.nextElementSibling || document.querySelector('span:first-child'),
         up = document.querySelector('span[text=up]')
         
         if(up){

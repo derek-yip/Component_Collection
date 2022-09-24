@@ -1,0 +1,43 @@
+.slider_wrapper{
+    height: 100vh;
+    width: 100vw;
+    h1{
+        font-size: 4rem;
+        color: black;
+    }
+    .slider{
+        width: 90vw;
+        height: 30vh;
+        
+        .slider_inner{
+            display: flex;
+            height: inherit;
+            flex: none;
+            .box{
+                position: relative;
+                height: 100%;
+                width: 10rem;
+                .photo_wrapper{
+                    height: inherit;
+                    width: inherit;
+                    margin: auto 0;
+                    img{
+                        width: 80%;          
+                    }
+                }
+                p{
+                    margin-top: rem;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                }
+                &[logo="show"]{
+
+                }
+                &[logo="hidden"]{
+                    
+                }
+            }
+        }
+    }
+    
+}

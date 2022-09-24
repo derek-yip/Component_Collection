@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { LightBox, OpenLightbox} from './Lightbox'
-
 function PhotoTest() {
     const style={
         width:'100vw',
