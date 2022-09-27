@@ -46,6 +46,7 @@
             top: 0;
             left: calc((var(--slide)/10)*1%);
             overflow: visible;
+            transition: 0.5s left ease-out;
             .logo{
                 position: absolute;
                 top: -110%;
