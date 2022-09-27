@@ -1,4 +1,5 @@
 import './App.css';
+import ComparsionSlider from './Components/ComparsionSlider/ComparsionSlider';
 import FirstLetterLarger from './Components/FirstLetterLarger/FirstLetterLarger';
 import PhotoTest from './Components/Lightbox/PhotoTest';
 import LogoSlider from './Components/LogoSlider/LogoSlider';
@@ -11,6 +12,7 @@ function App() {
       <PhotoTest/>
       <FirstLetterLarger/>
       <LogoSlider/>
+      <ComparsionSlider/>
     </div>
   );
 }

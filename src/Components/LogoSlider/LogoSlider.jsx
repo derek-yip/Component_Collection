@@ -5,13 +5,13 @@ import './LogoSlider.scss'
 function LogoSlider() {
       setInterval(() => {
         const box_width = document.querySelector('.box').clientWidth,
-        box = document.querySelectorAll('.box[logo="show"]'),
+        // box = document.querySelectorAll('.box[logo="show"]'),
         slider = document.querySelector('.slider'),
         slider_inner = document.querySelector('.slider_inner');
 
-        slider.scrollLeft += box_width;
-        if (slider.scrollLeft > slider_inner.clientWidth - slider.clientWidth) {
-          slider.scrollLeft=0;
+        slider.scrollLeft += box_width * 2;
+        if (slider.scrollLeft >= slider_inner.clientWidth - slider.clientWidth) {
+          slider.scrollLeft = 0;
         }
       }, 2000);
 
