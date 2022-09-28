@@ -18,7 +18,7 @@ function WordRotation() {
     <div className='Header_wrapper'>
         <h1>
             How to buy the best 
-            <div className="word_container">
+            <div className="word_container center_center">
                 <span text="show">Computer</span>
                 <span>Labtop</span>
                 <span>Gamepad</span>

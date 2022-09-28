@@ -3,12 +3,13 @@ import { LightBox, OpenLightbox} from './Lightbox'
 function PhotoTest() {
     const style={
         width:'100vw',
-        height:'100vh',
-        padding:'5rem'
+        height:'100%',
+        marginn:'5rem'
     }
 
     const photostyle={
-      cursor:'pointer'
+      cursor:'pointer',
+      width:'calc(100%/4)'
     }
 
     const [Image,setImage]=useState();

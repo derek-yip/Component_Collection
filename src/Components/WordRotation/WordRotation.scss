@@ -1,11 +1,8 @@
-:root{
+.Header_wrapper{
     --first_color:red;
     --second_color:lightblue;
     --third_color:lightgreen;
     --fourth_color:purple;
-}
-
-.Header_wrapper{
     display: grid;
     place-items: center;
     height: 100vh;
@@ -22,11 +19,13 @@
         overflow: hidden;
         
         span{
-            display: block;
+            display: flex;
             position:absolute;
             top:100%;
             left:0;
             padding: 10px 0;
+            width: inherit;
+            justify-content: center;
             
             &:nth-child(1){
                 color: var(--first_color);

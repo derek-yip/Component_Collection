@@ -1,0 +1,67 @@
+.WordTyping_wrapper{
+    --first_color:red;
+    --second_color:lightblue;
+    --third_color:lightgreen;
+    --fourth_color:purple;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    h1,span,h2{
+        font-size: 4rem;
+        text-transform: capitalize;
+        font-family: monospace;
+    }
+    .Word_container{
+        position: relative;
+        margin: 0 auto;
+        min-height: 100px;
+        height: 100px;
+        width: 0ch;
+        -webkit-animation: 2s typing alternate infinite;
+        animation: 2s typing alternate infinite;
+        transition-delay: .5s ;
+        h2{
+            display: flex;
+            position:absolute;
+            top:100%;
+            left:0;
+            padding: 10px 0;
+            justify-content: flex-start;
+            font-family: monospace;
+            
+            &[text="show"]{
+                transform: translateY(-100%);
+            }
+            &[text="up"]{
+                transform: translateY(-200%);
+            }
+        }
+        &::after{
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0px;
+            height: inherit;
+            width: 5px;
+            z-index: 100;
+            background-color: black;
+            -webkit-animation: 1s typing_cursor infinite;
+            animation: 1s typing_cursor steps(2,jump-none) infinite;
+        }
+    }
+}
+
+@keyframes typing {
+    to{
+        width: calc(1ch * var(--length));
+    }
+}
+@keyframes typing_cursor {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
