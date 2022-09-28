@@ -1,4 +1,5 @@
 import './App.css';
+import ButtonList from './Components/ButtonList/ButtonList';
 import ComparsionSlider from './Components/ComparsionSlider/ComparsionSlider';
 import FirstLetterLarger from './Components/FirstLetterLarger/FirstLetterLarger';
 import PhotoTest from './Components/Lightbox/PhotoTest';
@@ -19,6 +20,7 @@ function App() {
         logo={'https://www.camping-lescypres85.co.uk/wp-content/uploads/2021/11/cropped-favicon.png'}
       />
       <WordTyping/>
+      <ButtonList/>
     </div>
   );
 }
