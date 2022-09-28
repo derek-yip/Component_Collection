@@ -1,8 +1,4 @@
 .WordTyping_wrapper{
-    --first_color:red;
-    --second_color:lightblue;
-    --third_color:lightgreen;
-    --fourth_color:purple;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -18,9 +14,10 @@
         min-height: 100px;
         height: 100px;
         width: 0ch;
+
         -webkit-animation: 2s typing alternate infinite;
-        animation: 2s typing alternate infinite;
-        transition-delay: .5s ;
+        animation: 2s typing alternate infinite linear;
+        animation: 2s typing alternate infinite linear;
         h2{
             display: flex;
             position:absolute;
@@ -41,7 +38,7 @@
             position: absolute;
             content: '';
             top: 0;
-            right: 0px;
+            right: 0;
             height: inherit;
             width: 5px;
             z-index: 100;

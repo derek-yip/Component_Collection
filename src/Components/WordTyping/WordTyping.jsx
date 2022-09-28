@@ -2,27 +2,30 @@ import React, { useEffect } from 'react'
 import './WordTyping.scss'
 function WordTyping() {
     useEffect(() => {
-        const h2 = document.querySelectorAll('h2');
+        const h2 = document.querySelectorAll('h2'),
+            current = document.querySelector('h2[text="show"]'),
+            container = document.querySelector('.Word_container');
+            
         h2.forEach((h2)=>{
             SplitText(h2);
         })
-    }, []);
-
-    setInterval(()=>{
-        const current = document.querySelector('h2[text="show"]'),
-            next = current.nextElementSibling || document.querySelector('h2:first-child'),
-            up = document.querySelector('h2[text=up]')
-
-            const container = document.querySelector('.Word_container');
+        var length_current = current.getAttribute('length');
+        container.setAttribute('style', `--length:${length_current}`);
+        
+        setInterval(()=>{
+            const current = document.querySelector('h2[text="show"]'),
+                next = current.nextElementSibling || document.querySelector('h2:first-child'),
+                up = document.querySelector('h2[text=up]');
             var length = next.getAttribute('length');
             container.setAttribute('style', `--length:${length}`);
-
-        if(up){
-            up.removeAttribute('text');
-        }
-        current.setAttribute('text','up');
-        next.setAttribute('text','show');
-    },4000)
+            
+            if(up){
+                up.removeAttribute('text');
+            }
+            current.setAttribute('text','up');
+            next.setAttribute('text','show');
+        },4000)
+    }, []);
 
     function SplitText(target) {
         target.innerHTML = target.textContent.replace(/\S/g, "<span className='SplitText'>$&</span>");
