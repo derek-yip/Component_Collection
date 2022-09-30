@@ -25,7 +25,7 @@ function ButtonList() {
           <button className='buttonfront' onClick={(e)=>button3(e.target)}> ClickMe</button>
           <button className='buttonback' onClick={(e)=>button3(e.target)}>ClickMe</button>
         </button>
-        <button id='4'> ClickMe</button>
+        <button id='4' className='center_center'> <div className='inner center_center'>ClickMe</div> </button>
         <button id='5'> ClickMe</button>
         <button id='6'> ClickMe</button>
         <button id='7'> ClickMe</button>
