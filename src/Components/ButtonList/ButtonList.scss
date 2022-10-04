@@ -136,6 +136,24 @@
                 color: beige;
             }
         }
+        &:nth-child(6){
+            background-image: url('../../../public/photos/ButtonList/doraemon_noeye.png');
+            background-position: top;
+            // background-size: cover;
+            background-color: beige;
+            .eyes_left,.eyes_right{
+                position: absolute;
+                top: 30%;
+                height: 40px;
+                width: 30px;
+            }
+            .eyes_left{
+                left: 38%;
+            }
+            .eyes_right{
+                right: 38%;
+            }
+        }
     }
 }
 
