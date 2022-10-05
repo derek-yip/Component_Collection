@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/Component_Collection/static/css/main.3a5d9032.css",
-    "main.js": "/Component_Collection/static/js/main.b472e148.js",
+    "main.css": "/Component_Collection/static/css/main.c3db9d6d.css",
+    "main.js": "/Component_Collection/static/js/main.f051a02d.js",
+    "static/media/TomJerry2.png": "/Component_Collection/static/media/TomJerry2.a10ba6e3464913eada14.png",
+    "static/media/totoro_background.gif": "/Component_Collection/static/media/totoro_background.98432b354645a144f730.gif",
+    "static/media/TomJerry1.png": "/Component_Collection/static/media/TomJerry1.d63d11475f00ad035564.png",
+    "static/media/Digimon1.jpg": "/Component_Collection/static/media/Digimon1.271904036c108675e3e9.jpg",
+    "static/media/Digimon2.jpg": "/Component_Collection/static/media/Digimon2.59264a2169d71b24e3d9.jpg",
+    "static/media/XiaoXin2.gif": "/Component_Collection/static/media/XiaoXin2.ff78ab74e4662419aa60.gif",
+    "static/media/XiaoXin1.gif": "/Component_Collection/static/media/XiaoXin1.d54d4fc53f4dd05a050a.gif",
     "static/media/doraemon_noeye.png": "/Component_Collection/static/media/doraemon_noeye.96fafa731e2d7a925056.png",
+    "static/media/SquarePants2.png": "/Component_Collection/static/media/SquarePants2.bd5b76c88d0d9098d656.png",
+    "static/media/SquarePants1.png": "/Component_Collection/static/media/SquarePants1.b087376d9994554ceb99.png",
     "index.html": "/Component_Collection/index.html",
-    "main.3a5d9032.css.map": "/Component_Collection/static/css/main.3a5d9032.css.map",
-    "main.b472e148.js.map": "/Component_Collection/static/js/main.b472e148.js.map"
+    "main.c3db9d6d.css.map": "/Component_Collection/static/css/main.c3db9d6d.css.map",
+    "main.f051a02d.js.map": "/Component_Collection/static/js/main.f051a02d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5d9032.css",
-    "static/js/main.b472e148.js"
+    "static/css/main.c3db9d6d.css",
+    "static/js/main.f051a02d.js"
   ]
 }
