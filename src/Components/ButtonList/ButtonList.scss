@@ -10,6 +10,7 @@
         position: relative;
         height: 150px;
         width: calc(100vw/4);
+        min-width: 380px;
         margin: 0 auto;
         font-size: 2rem;
         color: black;
@@ -18,8 +19,16 @@
         box-shadow: 2px 3px 10px 2px gray;
         border-radius: 20px;
         &:nth-child(1){
-            background-color: antiquewhite;
+            background-color: rgb(220, 152, 63);
+            background:url('https://wallpaperaccess.com/full/2341505.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
             .inner{
+                background:url('https://wallpapercave.com/wp/wp7869656.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
                 background-color: palevioletred;
                 transition: 1s all ease-in-out;
                 position: absolute;
@@ -29,7 +38,6 @@
                 width: inherit;
                 -webkit-clip-path: circle(20% at 0% 0%);
                 clip-path: circle(20% at 0% 0%);
-                color: papayawhip; 
             }
             &:hover .inner{
                 -webkit-clip-path: circle(100%); 
@@ -38,11 +46,17 @@
         }
 
         &:nth-child(2){
+            background: url('https://www.myfreewalls.com/public/uploads/small/11628416866ybkhu4sy97ttzrqcop9rmnztm12vczljnwyotjdcnjyfv77yju1rprkb1rdqu4yxwprdslyisaikkbtl0ntiwnazh2jv7k7ixxws.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
             background-color: rgb(229, 250, 215);
             overflow: visible;
             box-shadow: 2px 3px 10px 2px rgba(128, 128, 128, 0.5);
             .inner{
-                background-color: rgb(192, 158, 243);
+                background: url('https://www.teahub.io/photos/full/105-1057441_funny-cartoon-faces-18-wide-wallpaper-spongebob-face.png');
+                background-size: cover;
+                background-position: center;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -79,10 +93,14 @@
                 }
             }
             .buttonfront{
-                background-color: aquamarine;
+                background: url('https://images.vocus.cc/83fff149-0117-4098-ba89-4fc396f56bf7.jpg');
+                background-size: cover;
+                background-position:top;
             }
             .buttonback{
-                background-color: palevioletred;
+                background: url('https://picx.zhimg.com/v2-39a5ec3f65df0e4a029e50152f8162e0_1440w.jpg?source=172ae18b');
+                background-size: cover;
+                background-position:top;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -106,14 +124,18 @@
                 background: linear-gradient(90deg, rgb(135, 146, 241) 10%, rgb(240, 143, 230) 20%, rgba(255,95,162,1) 30%, rgba(255,143,113,1) 40%, rgba(255,198,89,1) 49%, rgba(255,254,129,1) 61%, rgba(100,251,211,1) 100%);                
                 background-position: center;
                 background-size: cover;
-                height: inherit;
-                width: inherit;
+                height: 100%;
+                width: 100%;
             }
             .inner{
                 border-radius: 40px;
                 width: 100%;
                 height: 100%;
-                background-color: rgb(215, 230, 254);
+                background: url('https://www.meishujixun.com/uploads/e98a1ebdb45f98241eff1553b0487bb5.gif');
+                background-size: contain;
+                background-position:center;
+                background-repeat: no-repeat;
+                background-color: rgb(231, 240, 253);
                 inset: -5px;
                 z-index: 1;
                 transition: .3s all ease-in-out;
@@ -121,6 +143,7 @@
                     width: 96%;
                     height: 93%;
                     background-color: rgb(231, 240, 253);
+                    background-image: url('https://imgur.dcard.tw/oJnzUlW.gif');
                 }
             }
         }
@@ -139,19 +162,18 @@
         &:nth-child(6){
             background-image: url('../../../public/photos/ButtonList/doraemon_noeye.png');
             background-position: top;
-            // background-size: cover;
             background-color: beige;
             .eyes_left,.eyes_right{
                 position: absolute;
-                top: 30%;
+                top: 35%;
                 height: 40px;
                 width: 30px;
             }
             .eyes_left{
-                left: 38%;
+                left: 36%;
             }
             .eyes_right{
-                right: 38%;
+                right: 36%;
             }
         }
     }

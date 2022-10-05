@@ -33,7 +33,7 @@ function ButtonList() {
     window.addEventListener('mousemove',(e)=>{
       var x = e.clientX, 
           y = e.clientY,
-          multiplier = 0.03,
+          multiplier = 0.04,
           location_x = (x - eye_x)* multiplier,
           location_y = (y - eye_y)* multiplier
         
@@ -57,14 +57,14 @@ function ButtonList() {
 
   return (
     <div className="ButtonList">
-        <button id='1' className='cover'> ClickMe <button className='inner'>ClickMe</button></button>
-        <button id='2' className='cover'> ClickMe <button className='inner'>ClickMe</button></button>
+        <button id='1' className='cover'> <button className='inner'></button></button>
+        <button id='2' className='cover'> <button className='inner'></button></button>
         <button className='buttonCover' id='3'>
-          <button className='buttonfront' onClick={(e)=>button3(e.target)}> ClickMe</button>
-          <button className='buttonback' onClick={(e)=>button3(e.target)}>ClickMe</button>
+          <button className='buttonfront' onClick={(e)=>button3(e.target)}> </button>
+          <button className='buttonback' onClick={(e)=>button3(e.target)}> </button>
         </button>
-        <button id='4' className='center_center'> <div className='inner center_center'>ClickMe</div> </button>
-        <button id='5' onClick={(e)=>{GIFchangeBackground(e.target)}}> ClickMe</button>
+        <button id='4' className='center_center'> <div className='inner center_center'></div> </button>
+        <button id='5' onClick={(e)=>{GIFchangeBackground(e.target)}}> </button>
         <button id='6' onClick={(e)=>{EyeChange(e.target)}}> 
           <img className='eyes_left' src='/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
           <img className='eyes_right' src='/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
