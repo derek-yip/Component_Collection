@@ -46,7 +46,7 @@ function ButtonList() {
           right_eye = target.childNodes[1],
           original_src = left_eye.src
           left_eye.src = 'http://www.clker.com/cliparts/v/o/h/g/K/J/gold-star-md.png'
-          right_eye.src = '/photos/ButtonList/doraemon_eye4.png'
+          right_eye.src = './Component_Collection/photos/ButtonList/doraemon_eye4.png'
           setTimeout(() => {
             left_eye.src = original_src;
             right_eye.src = original_src;
@@ -66,8 +66,8 @@ function ButtonList() {
         <button id='4' className='center_center'> <div className='inner center_center'></div> </button>
         <button id='5' onClick={(e)=>{GIFchangeBackground(e.target)}}> </button>
         <button id='6' onClick={(e)=>{EyeChange(e.target)}}> 
-          <img className='eyes_left' src='/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
-          <img className='eyes_right' src='/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
+          <img className='eyes_left' src='./Component_Collection/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
+          <img className='eyes_right' src='./Component_Collection/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
         </button>
     </div>
   )
