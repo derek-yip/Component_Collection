@@ -4,8 +4,7 @@ import './LogoSlider.scss'
 
 function LogoSlider() {
       setInterval(() => {
-        const box_width = document.querySelector('.box').clientWidth,
-        // box = document.querySelectorAll('.box[logo="show"]'),
+        const box_width = document.querySelectorAll('.box')[0].clientWidth,
         slider = document.querySelector('.slider'),
         slider_inner = document.querySelector('.slider_inner');
 
