@@ -9,7 +9,7 @@ function LogoSlider() {
         slider_inner = document.querySelector('.slider_inner');
 
         slider.scrollLeft += box_width * 2;
-        if (slider.scrollLeft >= slider_inner.clientWidth - slider.clientWidth) {
+        if (slider.scrollLeft >= slider_inner.clientWidth - slider.clientWidth - 1) {
           slider.scrollLeft = 0;
         }
       }, 2000);
