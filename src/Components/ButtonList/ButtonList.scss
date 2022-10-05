@@ -20,12 +20,12 @@
         border-radius: 20px;
         &:nth-child(1){
             background-color: rgb(245, 211, 166)!important;
-            background:url('./photos/ButtonList/Tom&Jerry1.png');
+            background:url('../../../public/photos/ButtonList/TomJerry1.png');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
             .inner{
-                background:url('./photos/ButtonList/Tom&Jerry2.png');
+                background:url('../../../public/photos/ButtonList/TomJerry2.png');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -46,7 +46,7 @@
         }
 
         &:nth-child(2){
-            background: url('./photos/ButtonList/SquarePants1.png');
+            background: url('../../../public/photos/ButtonList/SquarePants1.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -54,7 +54,7 @@
             overflow: visible;
             box-shadow: 2px 3px 10px 2px rgba(128, 128, 128, 0.5);
             .inner{
-                background: url('./photos/ButtonList/SquarePants2.png');
+                background: url('../../../public/photos/ButtonList/SquarePants2.png');
                 background-size: cover;
                 background-position: center;
                 position: absolute;
@@ -93,12 +93,12 @@
                 }
             }
             .buttonfront{
-                background: url('./photos/ButtonList/Digimon1.jpg');
+                background: url('../../../public/photos/ButtonList/Digimon1.jpg');
                 background-size: cover;
                 background-position:top;
             }
             .buttonback{
-                background: url('./photos/ButtonList/Digimon2.jpg');
+                background: url('../../../public/photos/ButtonList/Digimon2.jpg');
                 background-size: cover;
                 background-position:top;
                 position: absolute;
@@ -130,7 +130,7 @@
                 border-radius: 20px;
                 width: 100%;
                 height: 100%;
-                background: url('./photos/ButtonList/XiaoXin1.gif');
+                background: url('../../../public/photos/ButtonList/XiaoXin1.gif');
                 background-size: contain;
                 background-position:center;
                 background-repeat: no-repeat;
@@ -142,12 +142,12 @@
                     width: 96%;
                     height: 93%;
                     background-color: rgb(231, 240, 253);
-                    background-image: url('./photos/ButtonList/XiaoXin2.gif');
+                    background-image: url('../../../public/photos/ButtonList/XiaoXin2.gif');
                 }
             }
         }
         &:nth-child(5){
-            background-image: url('./photos/ButtonList/totoro_background.gif');
+            background-image: url('../../../public/photos/ButtonList/totoro_background.gif');
             background-position: center!important;
             background-size: cover!important;
             filter: brightness(1.2);
@@ -159,7 +159,7 @@
             }
         }
         &:nth-child(6){
-            background-image: url('./photos/ButtonList/doraemon_noeye.png');
+            background-image: url('../../../public/photos/ButtonList/doraemon_noeye.png');
             background-position: top;
             background-color: beige;
             .eyes_left,.eyes_right{
