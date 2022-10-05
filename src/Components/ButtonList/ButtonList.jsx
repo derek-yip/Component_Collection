@@ -66,8 +66,8 @@ function ButtonList() {
         <button id='4' className='center_center'> <div className='inner center_center'></div> </button>
         <button id='5' onClick={(e)=>{GIFchangeBackground(e.target)}}> </button>
         <button id='6' onClick={(e)=>{EyeChange(e.target)}}> 
-          <img className='eyes_left' src='./Component_Collection/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
-          <img className='eyes_right' src='./Component_Collection/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
+          <img className='eyes_left' src='/Component_Collection/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
+          <img className='eyes_right' src='/Component_Collection/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
         </button>
     </div>
   )
