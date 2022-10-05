@@ -19,7 +19,7 @@ function ButtonList() {
 
   const GIFchangeBackground = (target) =>{
     const backgroundOriginal = target.style.background,
-        backgroundChange = './photos/ButtonList/totoro_background2.gif';
+        backgroundChange = './photos/ButtonList/totoro_background.gif';
     target.style.background = `url(${backgroundChange})`;
     setTimeout(() => {
       target.style.background = backgroundOriginal;
@@ -45,7 +45,7 @@ function ButtonList() {
     const left_eye = target.childNodes[0],
           right_eye = target.childNodes[1],
           original_src = left_eye.src
-          left_eye.src = 'http://www.clker.com/cliparts/v/o/h/g/K/J/gold-star-md.png'
+          left_eye.src = './photos/ButtonList/doraemon_eye5.png'
           right_eye.src = './photos/ButtonList/doraemon_eye4.png'
           setTimeout(() => {
             left_eye.src = original_src;
