@@ -69,9 +69,6 @@ function ButtonList() {
           <img className='eyes_left' src='/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
           <img className='eyes_right' src='/photos/ButtonList/doraemon_eye3.png' alt='' onLoad={(e)=>{EyeMove(e.target)}}/>
         </button>
-        <button id='7'> ClickMe</button>
-        <button id='8'> ClickMe</button>
-        <button id='9'> ClickMe</button>
     </div>
   )
 }
