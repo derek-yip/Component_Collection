@@ -26,7 +26,7 @@ function LogoSlider() {
                     return(
                       <div className="box y_between" key={index} logo="show">
                         <div className="photo_wrapper center_center">
-                          <img className='logo' src={`/Component_Collection/photos/LogoSlider/${detail.path}`} alt="" />
+                          <img className='logo' src={`./photos/LogoSlider/${detail.path}`} alt="" />
                         </div>
                         <p className='center_center'>{detail.brand}</p>
                       </div>
@@ -36,7 +36,7 @@ function LogoSlider() {
                     return(
                       <div className="box y_between" key={index} logo="hidden">
                           <div className="photo_wrapper center_center">
-                            <img className='logo' src={`/Component_Collection/photos/LogoSlider/${detail.path}`} alt="" />
+                            <img className='logo' src={`./photos/LogoSlider/${detail.path}`} alt="" />
                           </div>
                           <p className='center_center'>{detail.brand}</p>
                       </div>

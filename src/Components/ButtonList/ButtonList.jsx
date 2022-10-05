@@ -46,7 +46,7 @@ function ButtonList() {
           right_eye = target.childNodes[1],
           original_src = left_eye.src
           left_eye.src = 'http://www.clker.com/cliparts/v/o/h/g/K/J/gold-star-md.png'
-          right_eye.src = './Component_Collection/photos/ButtonList/doraemon_eye4.png'
+          right_eye.src = '/Component_Collection/photos/ButtonList/doraemon_eye4.png'
           setTimeout(() => {
             left_eye.src = original_src;
             right_eye.src = original_src;
