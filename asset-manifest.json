@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Component_Collection/static/css/main.3a5d9032.css",
-    "main.js": "/Component_Collection/static/js/main.c189b6cf.js",
+    "main.js": "/Component_Collection/static/js/main.de87ccde.js",
     "static/media/doraemon_noeye.png": "/Component_Collection/static/media/doraemon_noeye.96fafa731e2d7a925056.png",
     "index.html": "/Component_Collection/index.html",
     "main.3a5d9032.css.map": "/Component_Collection/static/css/main.3a5d9032.css.map",
-    "main.c189b6cf.js.map": "/Component_Collection/static/js/main.c189b6cf.js.map"
+    "main.de87ccde.js.map": "/Component_Collection/static/js/main.de87ccde.js.map"
   },
   "entrypoints": [
     "static/css/main.3a5d9032.css",
-    "static/js/main.c189b6cf.js"
+    "static/js/main.de87ccde.js"
   ]
 }
