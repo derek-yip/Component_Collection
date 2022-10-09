@@ -2,6 +2,7 @@ import './App.css';
 import ButtonList from './Components/ButtonList/ButtonList';
 import ComparsionSlider from './Components/ComparsionSlider/ComparsionSlider';
 import FirstLetterLarger from './Components/FirstLetterLarger/FirstLetterLarger';
+import ImageSpliter from './Components/ImageSpliter/ImageSpliter';
 import PhotoTest from './Components/Lightbox/PhotoTest';
 import LogoSlider from './Components/LogoSlider/LogoSlider';
 import WordRotation from './Components/WordRotation/WordRotation';
@@ -21,6 +22,7 @@ function App() {
       />
       <WordTyping/>
       <ButtonList/>
+      <ImageSpliter/>
     </div>
   );
 }
