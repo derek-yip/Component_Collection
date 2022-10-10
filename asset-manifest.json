@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Component_Collection/static/css/main.7047d8f6.css",
-    "main.js": "/Component_Collection/static/js/main.de954a10.js",
+    "main.css": "/Component_Collection/static/css/main.97e4e23f.css",
+    "main.js": "/Component_Collection/static/js/main.11fcecdc.js",
     "static/media/TomJerry2.png": "/Component_Collection/static/media/TomJerry2.a10ba6e3464913eada14.png",
     "static/media/TomJerry1.png": "/Component_Collection/static/media/TomJerry1.d63d11475f00ad035564.png",
     "static/media/totoro_background2.gif": "/Component_Collection/static/media/totoro_background2.b5f9cb648dfcb11470fd.gif",
@@ -13,11 +13,11 @@
     "static/media/SquarePants2.png": "/Component_Collection/static/media/SquarePants2.bd5b76c88d0d9098d656.png",
     "static/media/SquarePants1.png": "/Component_Collection/static/media/SquarePants1.b087376d9994554ceb99.png",
     "index.html": "/Component_Collection/index.html",
-    "main.7047d8f6.css.map": "/Component_Collection/static/css/main.7047d8f6.css.map",
-    "main.de954a10.js.map": "/Component_Collection/static/js/main.de954a10.js.map"
+    "main.97e4e23f.css.map": "/Component_Collection/static/css/main.97e4e23f.css.map",
+    "main.11fcecdc.js.map": "/Component_Collection/static/js/main.11fcecdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7047d8f6.css",
-    "static/js/main.de954a10.js"
+    "static/css/main.97e4e23f.css",
+    "static/js/main.11fcecdc.js"
   ]
 }
