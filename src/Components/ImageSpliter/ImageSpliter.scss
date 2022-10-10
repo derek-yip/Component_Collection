@@ -1,10 +1,41 @@
 .ImageSpliter{
+    position: relative;
     height: 100vh;
     width: 100vw;
     display: grid;
     grid-auto-flow: column;
+    div{
+        transform: translateY(100%);
+        animation: 1s slideup forwards ease-in-out;
+    }
+    .control{
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+        width: 250px;
+        z-index: 1;
+        font-size: 4rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(233, 254, 255, 0.508);
+        span{
+            color: slateblue;
+        }
+        button{
+            width: 80px;
+            height: 80px;
+            font-size: 4rem;
+        }
+    }
     img{
-        width: auto;
-        height: 99%;
+        display: none;
+    }
+}
+@keyframes slideup {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0%);
     }
 }

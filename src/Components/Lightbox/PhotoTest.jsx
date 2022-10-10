@@ -4,7 +4,6 @@ function PhotoTest() {
     const style={
         width:'100vw',
         height:'100%',
-        margin:'5rem'
     }
 
     const photostyle={
