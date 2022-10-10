@@ -4,9 +4,10 @@
     width: 100vw;
     display: grid;
     grid-auto-flow: column;
+    overflow: hidden;
     div{
         transform: translateY(100%);
-        animation: 1s slideup forwards ease-in-out;
+        animation: 2s slideup forwards ease-in-out;
     }
     .control{
         position: absolute;

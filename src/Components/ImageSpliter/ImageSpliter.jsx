@@ -3,6 +3,10 @@ import './ImageSpliter.scss'
 function ImageSpliter() {
     const [SplitNum, setSplitNum] = useState(4);
 
+    window.addEventListener('resize',()=>{
+        Split();
+    })
+
     useEffect(()=>{
         Split();
     },[SplitNum])
@@ -26,7 +30,7 @@ function ImageSpliter() {
                 pieces.style.backgroundImage = `url(${img.src})`;
                 pieces.style.backgroundSize = Area_Width + 'px';
                 pieces.style.backgroundPosition = '-' + space
-                pieces.style.animationDelay = index * 0.5 + 's'
+                pieces.style.animationDelay = index * (2 / splitNum) + 's'
                 pieces.setAttribute('slices','')
             }
     }
